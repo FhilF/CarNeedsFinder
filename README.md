@@ -1,5 +1,4 @@
 # CarNeedsFinder
-# CarNeedsFinder
 <hr>
 <p align="center">
   <img src="Images/HomePageWeb.png" title="Car Needs Finder">
