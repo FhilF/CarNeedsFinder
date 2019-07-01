@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp">
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relImage">
+        <ImageView
+            android:id="@+id/shop_pic"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@color/mildgreen"
+            android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/relImage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="140dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/shop_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:id="@+id/relShopName">
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:maxLines="2"
+                android:paddingLeft="@dimen/padding_places_name"
+                android:textSize="20dp"
+                android:text="Shop Name"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/black" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_telephone"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnCall"/>
+
+
+</RelativeLayout>
+
+            <RatingBar
+                android:id="@+id/rating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relShopName"
+                android:layout_marginLeft="@dimen/margin_places_start_rating"
+                android:layout_marginStart="@dimen/margin_places_start_rating"
+                android:layout_marginTop="@dimen/margin_places_top_ratings"
+                android:isIndicator="true"
+                android:numStars="5" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_below="@+id/relShopName"
+                android:layout_toRightOf="@+id/rating">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="("
+                    android:textColor="@color/grey"
+                    android:id="@+id/first"/>
+                <TextView
+                    android:id="@+id/totaluser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/first"
+                    android:text="0"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/grey" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=")"
+                    android:textColor="@color/grey"
+                    android:layout_toRightOf="@id/totaluser"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rating"
+                android:id="@+id/relAddress">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/placelogo"
+                    android:background="@drawable/ic_place_24dp"/>
+                <TextView
+                    android:layout_marginLeft="23dp"
+                    android:id="@+id/shop_address"
+                    android:layout_width="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="1"
+                    android:text="Shop Address"
+                    android:ellipsize="end"
+                    android:padding="@dimen/padding_places_address"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_below="@id/relAddress">
+                <Button
+                    android:id="@+id/btnView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btnshape"
+                    android:text="View Shop"
+                    android:fontFamily="sans-serif"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:id="@+id/btnMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btnshape"
+                    android:text="Direction"
+                    android:fontFamily="sans-serif"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

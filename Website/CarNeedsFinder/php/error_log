@@ -1,0 +1,50 @@
+[14-Dec-2018 01:50:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/iesza4fzfwo9/public_html/php/countShopReport.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/iesza4fzfwo9/public_html/php/countShopReport.php on line 8
+[14-Dec-2018 01:52:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyActivation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyActivation.php on line 8
+[14-Dec-2018 01:52:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyActivation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyActivation.php on line 8
+[14-Dec-2018 01:52:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyActivation.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyActivation.php on line 8
+[14-Dec-2018 01:54:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyCategory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyCategory.php on line 8
+[14-Dec-2018 01:54:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyCategory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/iesza4fzfwo9/public_html/php/fetchActiveShopbyCategory.php on line 8
+[14-Dec-2018 06:40:51 UTC] PHP Notice:  Undefined index: permitcopy in /home/iesza4fzfwo9/public_html/php/AddResubmit.php on line 24
+[14-Dec-2018 06:40:51 UTC] PHP Notice:  Undefined index: permit in /home/iesza4fzfwo9/public_html/php/AddResubmit.php on line 29
+[14-Dec-2018 06:40:52 UTC] PHP Notice:  Undefined index: permitcopy in /home/iesza4fzfwo9/public_html/php/AddResubmit.php on line 24
+[14-Dec-2018 06:40:52 UTC] PHP Notice:  Undefined index: permit in /home/iesza4fzfwo9/public_html/php/AddResubmit.php on line 29
+[14-Dec-2018 06:52:08 UTC] PHP Notice:  Undefined index: authname in /home/iesza4fzfwo9/public_html/php/deleteShopReviewbyId.php on line 7
+[14-Dec-2018 06:52:08 UTC] PHP Notice:  Undefined index: authcomment in /home/iesza4fzfwo9/public_html/php/deleteShopReviewbyId.php on line 8
+[14-Dec-2018 06:52:08 UTC] PHP Notice:  Undefined index: authemail in /home/iesza4fzfwo9/public_html/php/deleteShopReviewbyId.php on line 9
+[15-Dec-2018 01:18:11 UTC] PHP Notice:  Undefined index: email in /home/iesza4fzfwo9/public_html/php/fetchLoginAdmin.php on line 7
+[15-Dec-2018 01:18:11 UTC] PHP Notice:  Undefined index: password in /home/iesza4fzfwo9/public_html/php/fetchLoginAdmin.php on line 8
+[15-Dec-2018 01:21:00 UTC] PHP Notice:  Undefined index: email in /home/iesza4fzfwo9/public_html/php/fetchLoginAdmin.php on line 7
+[15-Dec-2018 01:21:00 UTC] PHP Notice:  Undefined index: password in /home/iesza4fzfwo9/public_html/php/fetchLoginAdmin.php on line 8
+[15-Dec-2018 01:23:06 UTC] PHP Notice:  Undefined index: email in /home/iesza4fzfwo9/public_html/php/fetchLoginAdmin.php on line 7
+[15-Dec-2018 01:23:06 UTC] PHP Notice:  Undefined index: password in /home/iesza4fzfwo9/public_html/php/fetchLoginAdmin.php on line 8
+[15-Dec-2018 02:05:39 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:06:01 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:06:39 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:03 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:15 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:20 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:27 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:30 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:33 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:36 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:07:39 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:08:05 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7
+[15-Dec-2018 02:08:08 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'Fenrir09'@'localhost' to database 'carneedsfinder_db' in /home/iesza4fzfwo9/public_html/php/conn.php on line 7

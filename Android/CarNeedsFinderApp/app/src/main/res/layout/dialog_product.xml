@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp">
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relImage">
+            <ImageView
+                android:id="@+id/dprod_pic"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:background="@color/mildgreen"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/relImage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/shop_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/relprodName">
+                <TextView
+                    android:id="@+id/dprod_name"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="3"
+                    android:paddingLeft="@dimen/padding_places_name"
+                    android:textSize="20dp"
+                    android:text="Shop Name"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/black" />
+
+
+
+            </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/relprodName"
+               >
+               <TextView
+                   android:id="@+id/dprod_price"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="start|center_vertical"
+                   android:text="Price"
+                   android:padding="@dimen/padding_places_address"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                   android:textColor="@color/blackgrey"/>
+
+
+               <TextView
+                   android:id="@+id/dprod_description"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/dprod_price"
+                   android:gravity="start|center_vertical"
+                   android:text="Description"
+                   android:ellipsize="end"
+                   android:maxLines="6"
+                   android:padding="@dimen/padding_places_address"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                   android:textColor="@color/blackgrey"/>
+
+           </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

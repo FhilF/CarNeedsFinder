@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#0e84d4</color>
+    <color name="txtBlue">#0f96f0</color>
+    <color name="grey">#808080</color>
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#101010</color>
+    <color name="colorAccent">#EDC98F</color>
+    <color name="colorDarkerblue">#17182c</color>
+    <color name="colorDarkblue">#2f2f51</color>
+    <color name="colorDarkbluePanel">#1f1f38</color>
+    <color name="appBarColor">#003031</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#363636</color>
+    <color name="mildgreen">#86ccce</color>
+    <color name="bggreen">#d3fce9</color>
+    <color name="panelbggreen">#c8eedc</color>
+    <color name="panelbgdarkergreen">#c1e0d1</color>
+    <color name="darkgreen">#53CEB0</color>
+    <color name="skyBlue">#8dddfe</color>
+    <color name="blueGreen">#3CCEAD</color>
+    <color name="blackgrey">#45494c</color>
+    <color name="radius">#99d3fce9</color>
+</resources>

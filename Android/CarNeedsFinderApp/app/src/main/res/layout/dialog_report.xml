@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        style="@style/Theme_Dialog">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:id="@+id/reportitle"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:text="What do you want to report about this shop?"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/reportitle"
+                android:id="@+id/reltitle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/shopreporttitle"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Shop Title"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/reltitle">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:paddingTop="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/report_author"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:text="User Account"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif" />
+                    <TextView
+                        android:id="@+id/report_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginStart="@dimen/margin_small"
+                        android:text="User email"
+                        android:layout_below="@+id/report_author"
+                        android:fontFamily="sans-serif-condensed" />
+
+                </RelativeLayout>
+                <EditText
+                    android:id="@+id/report_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:ellipsize="end"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:lineSpacingMultiplier="@dimen/bodytext_spacing"
+                    android:maxLines="10"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:lines="4"
+                    android:hint="Add a report"
+                    android:backgroundTint="@color/mildgreen"
+                    android:textColor="@color/black"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/cancel_report"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:background="@color/mildgreen"
+                        android:text="Cancel"/>
+
+                    <Button
+                        android:id="@+id/add_report"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/mildgreen"
+                        android:text="Report"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

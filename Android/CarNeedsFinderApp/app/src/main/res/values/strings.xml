@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Car Needs Finder</string>
+    <string name="google_maps_key">Insert Key Here</string>
+    <string name="address">http://192.168.1.5/CarNeedsFinder</string>
+    <string name="nonet">No Internet Connection</string>
+    <string name="signinsuccesful">You have successfully signed in</string>
+    <string name="signinfail">Sign in failed</string>
+    <string name="login">Please Sign in your Google Account to use this feature</string>
+    <string name="title_gasStation">Gas Station</string>
+    <string name="title_carAccessories">Car Accessories</string>
+    <string name="title_autoMechanic">Auto Mechanic</string>
+    <string name="title_carWash">Car Wash</string>
+    <string name="title_carAircon">Car Aircon</string>
+    <string name="title_tireSupply">Tire Supply</string>
+    <string name="title_carDealer">Car Dealer</string>
+    <string name="report"><u>Report it</u></string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="unitid">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="action_search">Search</string>
+    <string name="allow">Allow GPS</string>
+    <string name="unablelocation">Unable to get current location</string>
+    <string name="gpsmessage">Turning on your phone\'s GPS or Location will let us display your current location</string>
+    <string name="turnon">Turn on</string>
+    <string name="cancel">Cancel</string>
+    <string name="mapstyle">Map style is set to \u0020</string>
+    <string name="routestyle">Map route color is set to \u0020</string>
+    <string name="mymap">Routing option is set to \u0020</string>
+    <string name="selectcat">Select Category</string>
+    <string name="note">Note</string>
+    <string name="reportspinner">Select what to report</string>
+    <string name="neveraskagainmessage">Allowing the permission will give the application access to your current location to show your route to the destination. To manually allow permission to the application, just go to the application settings\n Permissions -> Allow Location </string>
+    <string name="gmnotavail">Maps app is not available</string>
+    <string name="builtinmap">This feature is only available for the built-in map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

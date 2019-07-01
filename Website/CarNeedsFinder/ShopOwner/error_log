@@ -1,0 +1,9 @@
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined index: shopOwner in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 3
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: id in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 77
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: image in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 124
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: name in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 125
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: image in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 129
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: name in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 131
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: email in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 132
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: image in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 156
+[14-Dec-2018 01:57:24 UTC] PHP Notice:  Undefined variable: name in /home/iesza4fzfwo9/public_html/ShopOwner/navigationBar.php on line 159

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:elevation="2dp"
+    app:cardBackgroundColor="@color/bggreen"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:id="@+id/relCardview"
+
+    >
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="380dp"
+
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shape"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/shop_pic"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_logout"
+            android:background="@color/blue"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_height="110dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center|center_vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/shop_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="@dimen/padding_places_name"
+                android:paddingRight="@dimen/padding_places_name"
+                android:paddingTop="@dimen/padding_places_name"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:singleLine="true"
+                android:text="Shop Name"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/black" />
+            <RatingBar
+                android:id="@+id/rating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shop_name"
+                android:layout_marginLeft="@dimen/margin_places_start_rating"
+                android:layout_marginStart="@dimen/margin_places_start_rating"
+                android:layout_marginTop="@dimen/margin_places_top_ratings"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:stepSize="0.1"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_below="@+id/shop_name"
+                android:layout_toRightOf="@+id/rating">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="("
+                    android:textColor="@color/grey"
+                    android:id="@+id/first"/>
+                <TextView
+                    android:id="@+id/totaluser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/first"
+                    android:text="0"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/grey" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=")"
+                    android:textColor="@color/grey"
+                    android:layout_toRightOf="@id/totaluser"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rating"
+                android:id="@+id/relAddress">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/placelogo"
+                    android:background="@drawable/ic_place_24dp"/>
+                <TextView
+                    android:layout_marginLeft="23dp"
+                    android:id="@+id/shop_address"
+                    android:layout_width="190dp"
+                    android:fontFamily="sans-serif"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center_vertical"
+                    android:maxLines="1"
+                    android:text="Shop Address"
+                    android:ellipsize="end"
+                    android:padding="@dimen/padding_places_address"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/grey"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/relAddress">
+                <ImageButton
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_telephone"
+                    android:id="@+id/btnCall"/>
+                <Button
+                    android:id="@+id/btnMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btnshape"
+                    android:text="Direction"
+                    android:fontFamily="sans-serif"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:textColor="@color/white"/>
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

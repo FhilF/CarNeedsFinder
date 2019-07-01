@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "907910174759",
+    "firebase_url": "https://carneedsfinderapp.firebaseio.com",
+    "project_id": "carneedsfinderapp",
+    "storage_bucket": "carneedsfinderapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907910174759:android:f9d3e270e80723b3",
+        "android_client_info": {
+          "package_name": "com.capstoneproject.carneedsfinderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907910174759-qok7dugo2vv6091fr1196ok3k2b5ndfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstoneproject.carneedsfinderapp",
+            "certificate_hash": "b661f20dcad276cad83ac9290fc8f9bde2731d61"
+          }
+        },
+        {
+          "client_id": "907910174759-6ir145788fmjsr179dbmub6msmirghgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA15XGxMnRWL-R4SDauSE9NdRp7xMw87rE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907910174759-6ir145788fmjsr179dbmub6msmirghgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
